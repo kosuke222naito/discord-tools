@@ -4,7 +4,7 @@ import random
 import asyncio
 from dotenv import load_dotenv
 
-load_dotenv()
+load_dotenv(override=True)
 
 ALLOWED_EXTENSIONS = {".png", ".jpeg", ".jpg", ".gif"}
 
